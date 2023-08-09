@@ -11,6 +11,8 @@
 		575D31072A3AE69E00896F08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575D31062A3AE69E00896F08 /* ContentView.swift */; };
 		575D31092A3AE69F00896F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 575D31082A3AE69F00896F08 /* Assets.xcassets */; };
 		575D310C2A3AE69F00896F08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 575D310B2A3AE69F00896F08 /* Preview Assets.xcassets */; };
+		575D31142A3AE9D100896F08 /* snowParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 575D31122A3AE9D100896F08 /* snowParticle.sks */; };
+		575D31152A3AE9D100896F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 575D31132A3AE9D100896F08 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		575D31062A3AE69E00896F08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		575D31082A3AE69F00896F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		575D310B2A3AE69F00896F08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		575D31122A3AE9D100896F08 /* snowParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = snowParticle.sks; sourceTree = "<group>"; };
+		575D31132A3AE9D100896F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,8 @@
 		575D30F82A3AE69E00896F08 = {
 			isa = PBXGroup;
 			children = (
+				575D31122A3AE9D100896F08 /* snowParticle.sks */,
+				575D31132A3AE9D100896F08 /* Assets.xcassets */,
 				575D31032A3AE69E00896F08 /* snowball_ios */,
 				575D31022A3AE69E00896F08 /* Products */,
 			);
@@ -127,6 +133,8 @@
 			files = (
 				575D310C2A3AE69F00896F08 /* Preview Assets.xcassets in Resources */,
 				575D31092A3AE69F00896F08 /* Assets.xcassets in Resources */,
+				575D31152A3AE9D100896F08 /* Assets.xcassets in Resources */,
+				575D31142A3AE9D100896F08 /* snowParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +275,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"snowball_ios/Preview Content\"";
+				DEVELOPMENT_TEAM = MTUYFM4K8P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"snowball_ios/Preview Content\"";
+				DEVELOPMENT_TEAM = MTUYFM4K8P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
